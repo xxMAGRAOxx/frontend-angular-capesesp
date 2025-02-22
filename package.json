@@ -15,8 +15,8 @@
         "bundle-report": "webpack-bundle-analyzer dist/stats.json"
     },
     "engines": {
-        "node": "16.18.0",
-        "npm": "8.19.2"
+        "npm": "10.x",
+        "node": "18.x"
     },
     "private": true,
     "dependencies": {

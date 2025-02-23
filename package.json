@@ -6,17 +6,13 @@
         "ng": "ng",
         "start": "ng serve --port 4299",
         "start:mem": "node --max_old_space_size=6144 ./node_modules/@angular/cli/bin/ng serve --open",
-        "build": "ng build",
+        "build": "ng build --prod`",
         "build:prod": "ng build --prod",
         "build:prod:mem": "node --max_old_space_size=6144 ./node_modules/@angular/cli/bin/ng build --prod",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
         "bundle-report": "webpack-bundle-analyzer dist/stats.json"
-    },
-    "engines": {
-        "npm": "10.x",
-        "node": "18.x"
     },
     "private": true,
     "dependencies": {
